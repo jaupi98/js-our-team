@@ -37,3 +37,12 @@ for(let i=0; i<team.length; i++){
     console.log(team[i].image);
 }
 
+// MILESTONE 2
+
+const infos = document.getElementById('info');
+
+for(let i=0; i<team.length; i++){
+    infos.innerHTML += team[i].name +'<br>';
+    infos.innerHTML += team[i].role +'<br>';
+    infos.innerHTML += team[i].image +'<br>' +'<br>';
+}
